@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <title>Document</title>
+       `<!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <style>
+            .inline_block{
+                padding: 0px 200px;
+            }
+            .inline_block div{
+                display: inline-block;
+                width: 325px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .inline_block img{
+                width: 300px;
+                border-radius: 10px;
+                
+        }
+        </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">My Album</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="likelion.html">likelion6</a></li> <!-- bootstrap-->
+          <li class="active"><a href="hobby.html">hobby</a></li> <!-- inline-block //  <li class="active"> 요 부분은 클릭하였을때 진하게 되는 부분 표현-->
+          <li><a href="food.html">food</a></li> <!-- grid -->
+          <li><a href="view.html">view</a></li> <!-- flex -->
+        </ul>
+      </div>
+    </nav>
+    
+    
+    <div class="inline_block"> <!-- div.inline_block 후 tab 키 -->
+        <div>
+            <img src="likelion6/likelion1.jpg">
+            <hr>
+            <h3>멋사1</h3>
+        </div>
+        <div>
+            <img src="likelion6/likelion2.jpg">
+            <hr>
+            <h3>멋사2</h3>
+        </div>
+        <div>
+            <img src="likelion6/likelion3.jpg">
+            <hr>
+            <h3>멋사3</h3>
+        </div>
+        <div>
+            <img src="likelion6/likelion4.jpg">
+            <hr>
+            <h3>멋사4</h3>
+        </div>
+        <div>
+              <img src="likelion6/likelion5.jpg">
+            <hr>
+            <h3>멋사5</h3>
+        </div>
+    </div>
+    
+</body>
+</html>
